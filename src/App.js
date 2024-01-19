@@ -10,8 +10,7 @@ import { Testimonial } from './components/Testimonial';
 function App() {
   useEffect(() => {
     AOS.init({
-      offset:1000,
-      delay:1000,
+      delay:500,
       easing:"ease-in-out",
       duration:1000,
       

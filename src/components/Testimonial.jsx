@@ -31,7 +31,7 @@ export const Testimonial = () => {
 
     ]
   return (
-    <div data-aos="fade-left">
+    <div data-aos="fade-up" data-aos-delay="1400">
         <h1 className='text-center text-[55px] font-bold text-blue-700'>Testimonial</h1>
 
         <Swiper
@@ -51,7 +51,7 @@ export const Testimonial = () => {
             return(
 
                 <SwiperSlide className='w-full h-full flex justify-center items-center'>
-                    <div className='w-[900px]  bg-white py-10 h-[590px] shadow-lg px-8'>
+                    <div className='w-[900px] mx-auto  bg-white py-10 h-[590px] shadow-lg px-8'>
                         <img src={testi.img} className='w-[140px] h-[140px] object-cover mx-auto rounded-full border-[2px] border-white' alt="" />
                         <h1 className='text-center my-2 font-bold font-sans text-4xl'>{testi.name}</h1>
                         <div className="flex justify-center my-2">
