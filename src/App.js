@@ -18,6 +18,7 @@ function App() {
     });
   }, [])
   return (
+    <>
    <div>
     <Navbar/>
     <Hero/>
@@ -25,6 +26,7 @@ function App() {
     <Testimonial/>
     <Footer/>
    </div>
+    </>
   );
 }
 
